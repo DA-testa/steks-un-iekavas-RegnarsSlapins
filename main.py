@@ -33,7 +33,7 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if text[0] == "I":
+    if text == "I":
         text = input()
     mismatch = find_mismatch(text)
     print(mismatch)
